@@ -83,7 +83,7 @@ const headleSubmit = (e)=>{
                 <Grid align='center'>  
                     <h2 style={headerStyle2}>Login Plagio Control</h2>
                     <Typography style={headerStyle3} variant='caption'>    
-                        Enter your emai and password below
+                        Enter your emai and hola 
                     </Typography>
                 </Grid>
                 <form onSubmit={headleSubmit}>
