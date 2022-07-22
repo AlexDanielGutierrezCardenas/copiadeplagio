@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(79, 79, 90);
+    margin:0;
+}
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.login-content{
+    position: absolute;
+	top: calc(50% - 4.688rem);
+	left: calc(45% - 3.125rem);
+	height: 9.375rem;
+	width:21.875rem;
+	padding:0.625rem;
+	z-index: 2;
+}
+
+.form-container{
+    width:23.75rem;
+    height:36.375rem;
+    background:#fbfbfb;
+    border-radius:0.5rem;
+    box-shadow:0 0 2.5rem -0.625rem #000;
+    margin:calc(50vh - 13.75rem) auto;
+    padding:1.25rem 1.875rem;
+    max-width:calc(100vw - 2.5rem);
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    position:relative
+}
+.submit{
+    width: 20.313rem;
+    height: 3rem;
+    background: #3751FF;
+    border: 0.5rem  solid #3751FF;
+    cursor: pointer;
+    border-radius: 0.125rem;
+    color: #f8f6f4;
+    font-family: 'Exo', sans-serif;
+    font-size: 1rem ;
+    font-weight: 400;
+    padding: 0.375rem;
+    margin-top: 0.625rem;
+    box-shadow: 0rem 0.25rem 0.75rem rgba(55, 81, 255, 0.24);
+    border-radius: 0.5rem;
+}
+.submit:hover{
+	opacity: 0.8;
+}
+.submit:active{
+	opacity: 0.6;
+}
+
+.title-logo{
+    font-style: normal;
+    font-weight: 0px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #A4A6B3;
+    opacity: 0.7;
+    padding-bottom:0.938rem;
+    margin-top: 0rem;
+}
+
+.title-intruction{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25rem;
+    text-align: center;
+    letter-spacing: 0.019rem ;
+    color: #9FA2B4;
+    padding-bottom:1.563rem;
+}
+
+.icon{
+    width:3.75rem;
+    height:3.438rem;
+    display: block;
+    margin: 0rem auto;
+    margin-top: 0.063rem;
+}
+
+.title-registration{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.25rem;
+    text-align: center;
+    letter-spacing: 0.019rem;
+    color: #9FA2B4;
+    margin-top: 1.75rem;
+    text-decoration: none;
+}
+.sign-up{
+    color: #3751FF;
+}
+
+
+.label-incorrect-parameters{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing:0.019rem ;
+    color: #f70000;
+    margin-top: -1.25rem;
+    margin-bottom: 0rem;
+    
+}
+
+.home-content{
+    text-align: center;
+    margin:0.625rem 0;
+    padding-bottom:0.625rem;
+    width:11.25rem;
+    color:#dedee4;
+    border-bottom:0.188rem solid #d4d4de;
+    font-size: 1.563rem;
+    margin-top: 15%;
+}
+
+
+

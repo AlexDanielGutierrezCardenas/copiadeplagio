@@ -1,0 +1,19 @@
+.regular-style{
+    width: 18.75rem;
+	height: 1.563rem;
+	padding:0.625rem;
+	background: #FCFDFE;
+    border: 0.063rem solid #bec0c6;
+	border-radius: 0.5rem;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+    color: #222226;
+	opacity: 0.4;
+	margin-bottom: 0.938rem;
+	margin-top: 0.313rem;
+}
+
+
+
